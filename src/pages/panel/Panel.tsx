@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import '@pages/panel/Panel.css';
 import { difyApi, ChatMessage } from '@src/services/difyApi';
-import logo from '@src/assets/img/logo.svg';
+import logo from '@src/assets/img/favicon_IES.ico';
 
 export default function Panel(): JSX.Element {
   const [messages, setMessages] = useState<ChatMessage[]>([]);
